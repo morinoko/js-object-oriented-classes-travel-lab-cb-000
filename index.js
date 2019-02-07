@@ -41,7 +41,7 @@ class Route {
       this.avenueToInteger(this.beginningLocation.horizontal));
 
     const verticalBlocksTravelled =
-      Math.abs(this.endingLocation.vertical - 
+      Math.abs(this.endingLocation.vertical -
       this.beginningLocation.vertical);
 
     return horizontalBlocksTravelled + verticalBlocksTravelled;
