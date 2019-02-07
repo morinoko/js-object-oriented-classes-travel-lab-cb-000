@@ -47,7 +47,6 @@ class Route {
     return horizontalBlocksTravelled + verticalBlocksTravelled;
   }
 
-
   estimatedTime(peakHours = false) {
     const blocksPerMinute = peakHours ? 2 : 3;
 
